@@ -161,20 +161,27 @@ int main()
 		sf::Clock clock;
 		bool playing = true;
 
-		while (window1.isOpen() && window2.isOpen())
+		while (window1.isOpen())
 		{
 			if (playing)
 			{
-				sf::Event event;
-				while (window1.pollEvent(event) && window2.pollEvent(event))
+				sf::Event event1;
+				while (window1.pollEvent(event1))
 				{
 					if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
 					{
 						window1.close();
-						window2.close();
 					}
 				}
 
+				sf::Event event2;
+				while (window2.pollEvent(event2))
+				{
+					if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
+					{
+						window2.close();
+					}
+				}
 
 				// Ball movement/////////////////////////////////////////////////////////////////
 
@@ -204,11 +211,10 @@ int main()
 				{
 					ball.setPosition(900 / 2, 700 / 2);
 				}
-			}
 
-			if (&Server) //Right Player
-			{
+				// Players' movements ////////////////////////////////////////////////////////
 
+				// Right player movement:
 				// Player movement upwards
 				if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
 				{
@@ -236,12 +242,7 @@ int main()
 						//std::cout << "Collision" << std::endl;
 					}
 				}
-			}
-
-			else if (Client) //Left Player
-			{
-
-				// Left player movement: ////////////////////////////////////////////////////////
+				// Left player movement:
 
 				// Player movement upwards
 				if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
@@ -269,7 +270,9 @@ int main()
 						//std::cout << "Collision" << std::endl;
 						leftPlayer.move(0, -0.3f);
 					}
-				}
+					//////////////////////////////////////////////////////////////////////////////////////
+			}
+
 			}
 
 			window1.clear();

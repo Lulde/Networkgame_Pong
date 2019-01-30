@@ -1,4 +1,3 @@
 ﻿  main.cpp
-e:\koulutehtävii\verkkopeli\verkkopeli_pong\verkkopeli_pong\main.cpp(241): warning C4551: function call missing argument list
-  verkkopeli_Pong.vcxproj -> E:\Koulutehtävii\Verkkopeli\verkkopeli_Pong\Debug\verkkopeli_Pong.exe
-  verkkopeli_Pong.vcxproj -> E:\Koulutehtävii\Verkkopeli\verkkopeli_Pong\Debug\verkkopeli_Pong.pdb (Partial PDB)
+  verkkopeli_Pong.vcxproj -> E:\Koulutehtävii\Verkkopeli\Networkgame_Pong\verkkopeli_Pong\Debug\verkkopeli_Pong.exe
+  verkkopeli_Pong.vcxproj -> E:\Koulutehtävii\Verkkopeli\Networkgame_Pong\verkkopeli_Pong\Debug\verkkopeli_Pong.pdb (Partial PDB)
