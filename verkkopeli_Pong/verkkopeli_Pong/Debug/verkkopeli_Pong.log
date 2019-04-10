@@ -1,3 +1,4 @@
 ﻿  main.cpp
+e:\koulutehtävii\verkkopeli\networkgame_pong\verkkopeli_pong\verkkopeli_pong\main.cpp(48): warning C4101: 'mode': unreferenced local variable
   verkkopeli_Pong.vcxproj -> E:\Koulutehtävii\Verkkopeli\Networkgame_Pong\verkkopeli_Pong\Debug\verkkopeli_Pong.exe
   verkkopeli_Pong.vcxproj -> E:\Koulutehtävii\Verkkopeli\Networkgame_Pong\verkkopeli_Pong\Debug\verkkopeli_Pong.pdb (Partial PDB)
