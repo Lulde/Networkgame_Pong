@@ -1,9 +1,8 @@
 ﻿  main.cpp
-main.cpp(48): warning C4101: 'mode': unreferenced local variable
   Generating code
-  16 of 279 functions ( 5.7%) were compiled, the rest were copied from previous compilation.
-    8 functions were new in current compilation
-    22 functions had inline decision re-evaluated but remain unchanged
+  6 of 272 functions ( 2.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  verkkopeli_Pong.vcxproj -> E:\Koulutehtävii\Verkkopeli\Networkgame_Pong\verkkopeli_Pong\Release\verkkopeli_Pong.exe
-  verkkopeli_Pong.vcxproj -> E:\Koulutehtävii\Verkkopeli\Networkgame_Pong\verkkopeli_Pong\Release\verkkopeli_Pong.pdb (Full PDB)
+  verkkopeli_Pong.vcxproj -> E:\Koulutehtävii\Verkkopeli\Networkgame_Pong_virallinen\verkkopeli_Pong\Release\verkkopeli_Pong.exe
+  verkkopeli_Pong.vcxproj -> E:\Koulutehtävii\Verkkopeli\Networkgame_Pong_virallinen\verkkopeli_Pong\Release\verkkopeli_Pong.pdb (Full PDB)
